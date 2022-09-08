@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tinydenticon"
-version = "0.1.1"
+version = "0.1.2"
 description = "identicon.js compatible Identicon implementation in Python 3"
 authors = ["tinytengu <tinytengu@yandex.ru>"]
 license = "GPL-3.0-only"

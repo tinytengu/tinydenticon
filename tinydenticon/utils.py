@@ -63,7 +63,7 @@ def hue_to_rgb(hue):
 
 
 def rgb_percent_to_rgb(rgb_percent: tuple[str]) -> tuple[float]:
-    return [(percent * 100) / 255 for percent in rgb_percent]
+    return tuple(int(255 * percent) for percent in rgb_percent)
 
 
 def hsl_to_rgb_percent(hue, saturation, lightness):
