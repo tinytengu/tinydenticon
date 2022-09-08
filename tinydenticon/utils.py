@@ -1,4 +1,3 @@
-import webcolors
 from Cryptodome.Hash import SHA512
 
 
@@ -64,7 +63,7 @@ def hue_to_rgb(hue):
 
 
 def rgb_percent_to_rgb(rgb_percent: tuple[str]) -> tuple[float]:
-    return webcolors.rgb_percent_to_rgb(["%i%%" % (p * 100) for p in rgb_percent])
+    return [(percent * 100) / 255 for percent in rgb_percent]
 
 
 def hsl_to_rgb_percent(hue, saturation, lightness):

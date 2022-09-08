@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tinydenticon"
-version = "0.1.0"
+version = "0.1.1"
 description = "identicon.js compatible Identicon implementation in Python 3"
 authors = ["tinytengu <tinytengu@yandex.ru>"]
 license = "GPL-3.0-only"
@@ -10,7 +10,6 @@ repository = "https://github.com/tinytengu/tinydenticon"
 [tool.poetry.dependencies]
 python = "^3.10"
 Pillow = "^9.2.0"
-webcolors = "^1.12"
 pycryptodomex = "^3.15.0"
 
 
