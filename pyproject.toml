@@ -5,6 +5,7 @@ description = "identicon.js compatible Identicon implementation in Python 3"
 authors = ["tinytengu <tinytengu@yandex.ru>"]
 license = "GPL-3.0-only"
 readme = "README.md"
+repository = "https://github.com/tinytengu/tinydenticon"
 
 [tool.poetry.dependencies]
 python = "^3.10"
