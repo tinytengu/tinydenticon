@@ -1,5 +1,7 @@
 # tinydenticon
 
+![Preview](https://i.imgur.com/gaJuK1js.png) ![Preview](https://i.imgur.com/KZeraGNs.png)
+
 Python 3 implementation of Identicon.
 
 Specifically designed to produce the same results as [identicon.js](https://github.com/stewartlord/identicon.js)
